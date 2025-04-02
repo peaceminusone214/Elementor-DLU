@@ -1,0 +1,25 @@
+.elementor-26875 .elementor-element.elementor-element-5a49feb8{--display:flex;}.elementor-26875 .elementor-element.elementor-element-5a49feb8.e-con{--flex-grow:0;--flex-shrink:0;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-26875 .elementor-element.elementor-element-6cf8fb26{text-align:left;}.elementor-26875 .elementor-element.elementor-element-6cf8fb26 .elementor-heading-title{font-family:"Roboto", Sans-serif;font-size:24px;font-weight:600;color:var( --e-global-color-37a3cd3 );}.elementor-widget-posts .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-posts .elementor-post__title, .elementor-widget-posts .elementor-post__title a{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-posts .elementor-post__meta-data{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-posts .elementor-post__excerpt p{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-posts .elementor-post__read-more{color:var( --e-global-color-accent );}.elementor-widget-posts a.elementor-post__read-more{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-posts .elementor-post__card .elementor-post__badge{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-posts .elementor-pagination{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-posts .e-load-more-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-26875 .elementor-element.elementor-element-2f5bf98{--grid-row-gap:15px;--grid-column-gap:25px;}.elementor-26875 .elementor-element.elementor-element-2f5bf98 .elementor-posts-container .elementor-post__thumbnail{padding-bottom:calc( 0.66 * 100% );}.elementor-26875 .elementor-element.elementor-element-2f5bf98:after{content:"0.66";}.elementor-26875 .elementor-element.elementor-element-2f5bf98 .elementor-post__thumbnail__link{width:100%;}.elementor-26875 .elementor-element.elementor-element-2f5bf98.elementor-posts--thumbnail-left .elementor-post__thumbnail__link{margin-right:20px;}.elementor-26875 .elementor-element.elementor-element-2f5bf98.elementor-posts--thumbnail-right .elementor-post__thumbnail__link{margin-left:20px;}.elementor-26875 .elementor-element.elementor-element-2f5bf98.elementor-posts--thumbnail-top .elementor-post__thumbnail__link{margin-bottom:20px;}@media(max-width:767px){.elementor-26875 .elementor-element.elementor-element-2f5bf98 .elementor-posts-container .elementor-post__thumbnail{padding-bottom:calc( 0.5 * 100% );}.elementor-26875 .elementor-element.elementor-element-2f5bf98:after{content:"0.5";}.elementor-26875 .elementor-element.elementor-element-2f5bf98 .elementor-post__thumbnail__link{width:100%;}}@media(min-width:768px){.elementor-26875 .elementor-element.elementor-element-5a49feb8{--width:100%;}}/* Start custom CSS for posts, class: .elementor-element-2f5bf98 */.elementor-26875 .elementor-element.elementor-element-2f5bf98 h1, 
+.elementor-26875 .elementor-element.elementor-element-2f5bf98 h2, 
+.elementor-26875 .elementor-element.elementor-element-2f5bf98 h3, 
+.elementor-26875 .elementor-element.elementor-element-2f5bf98 .elementor-heading-title {
+    position: relative;
+    padding-left: 30px;
+}
+
+.elementor-26875 .elementor-element.elementor-element-2f5bf98 h1::before, 
+.elementor-26875 .elementor-element.elementor-element-2f5bf98 h2::before, 
+.elementor-26875 .elementor-element.elementor-element-2f5bf98 h3::before, 
+.elementor-26875 .elementor-element.elementor-element-2f5bf98 .elementor-heading-title::before {
+    content: ">> ";
+    font-weight: bold;
+    color: #79a227; /* Tùy chỉnh màu sắc */
+    position: absolute;
+    left: 0;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-5a49feb8 */.elementor-post__title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Giới hạn số dòng */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}/* End custom CSS */
