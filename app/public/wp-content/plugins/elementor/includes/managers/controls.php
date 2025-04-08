@@ -802,7 +802,11 @@ class Controls_Manager {
 		];
 
 		$control_type = 'controls';
-		if ( Performance::should_optimize_controls() && $this->is_style_control( $control_data ) ) {
+		if (
+			Performance::is_optimized_control_loading_feature_enabled()
+			&& Performance::should_optimize_controls()
+			&& $this->is_style_control( $control_data )
+		) {
 			$control_type = 'style_controls';
 		}
 
@@ -822,15 +826,6 @@ class Controls_Manager {
 		if ( ! $control_type_instance ) {
 			_doing_it_wrong( sprintf( '%1$s::%2$s', __CLASS__, __FUNCTION__ ), sprintf( 'Control type "%s" not found.', esc_html( $control_data['type'] ) ), '1.0.0' );
 			return false;
-		}
-
-		if ( $control_type_instance instanceof Has_Validation ) {
-			try {
-				$control_type_instance->validate( $control_data );
-			} catch ( \Exception $e ) {
-				_doing_it_wrong( sprintf( '%1$s::%2$s', __CLASS__, __FUNCTION__ ), esc_html( $e->getMessage() ), '3.23.0' );
-				return false;
-			}
 		}
 
 		if ( $control_type_instance instanceof Base_Data_Control ) {

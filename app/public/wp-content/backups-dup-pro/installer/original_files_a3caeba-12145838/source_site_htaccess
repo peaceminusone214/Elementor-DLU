@@ -1,0 +1,90 @@
+#BEGIN Really Simple SSL LETS ENCRYPT
+RewriteRule ^.well-known/(.*)$ - [L]
+#END Really Simple SSL LETS ENCRYPT
+# BEGIN LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+<IfModule LiteSpeed>
+RewriteEngine on
+CacheLookup on
+RewriteRule .* - [E=Cache-Control:no-autoflush]
+RewriteRule \.litespeed_conf\.dat - [F,L]
+### marker MOBILE start ###
+RewriteCond %{HTTP_USER_AGENT} Mobile|Android|Silk/|Kindle|BlackBerry|Opera\ Mini|Opera\ Mobi [NC]
+RewriteRule .* - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+ismobile]
+### marker MOBILE end ###
+### marker LOGIN COOKIE start ###
+RewriteRule .? - [E="Cache-Vary:,wp-postpass_54881e281d6cf15c53142bd12a3a10a9"]
+### marker LOGIN COOKIE end ###
+### marker FAVICON start ###
+RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
+### marker FAVICON end ###
+### marker DROPQS start ###
+CacheKeyModify -qs:fbclid
+CacheKeyModify -qs:gclid
+CacheKeyModify -qs:utm*
+CacheKeyModify -qs:_ga
+### marker DROPQS end ###
+# Block access to readme.html and readme.txt files
+RewriteCond %{REQUEST_URI} ^/readme\.html$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^/readme\.txt$ [NC]
+RewriteRule .* - [F,L]
+# Block access to xmlrpc.php, phpinfo.php and wp-trackback.php files
+RewriteCond %{REQUEST_URI} ^/xmlrpc\.php$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^/phpinfo\.php$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^/wp-trackback\.php$ [NC]
+RewriteRule .* - [F,L]
+# Block access to license.txt and wp-config.php files
+RewriteCond %{REQUEST_URI} ^/license\.txt$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^/wp-config\.php$ [NC]
+RewriteRule .* - [F,L]
+# Block access to wp-admin/includes directory
+RewriteRule ^/wp-admin/includes/ - [F,L]
+# Block access to all files in wp-includes directory, except for .js files
+RewriteCond %{REQUEST_URI} !^/wp-includes/.*\.js$ [NC]
+RewriteRule ^/wp-includes/ - [F,L]
+# Block access to all PHP files in wp-includes directory
+RewriteRule ^/wp-includes/.*\.php$ - [F,L]
+# Block access to PHP files in wp-includes/js/tinymce/langs directory
+RewriteRule ^/wp-includes/js/tinymce/langs/.+\.php$ - [F,L]
+# Block access to wp-includes/theme-compat directory
+RewriteRule ^/wp-includes/theme-compat/ - [F,L]
+# Block access to .git and .svn directories
+RewriteRule (^|.*/)\.(git|svn)/.* - [F,L]
+# Block access to PHP files in wp-content/uploads directory
+RewriteRule ^/wp-content/uploads/.*\.(?:php[1-7]?|pht|phtml?|phps)\.?$ [NC,F,L]
+# Block access to PHP files in wp-content/plugins directory
+RewriteRule ^/wp-content/plugins/.*\.(?:php[1-7]?|pht|phtml?|phps)\.?$ [NC,F,L]
+# Block access to PHP files in wp-content/themes directory
+RewriteRule ^/wp-content/themes/.*\.(?:php[1-7]?|pht|phtml?|phps)\.?$ [NC,F,L]
+</IfModule>
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END LSCACHE
+# BEGIN NON_LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END NON_LSCACHE
+#This Apache config file was created by Duplicator Installer on 2021-05-21 11:12:05.
+#The original can be found in archived file with the name .htaccess__[HASH]
+# BEGIN rlrssslReallySimpleSSL rsssl_version[5.0.8]
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTPS} !=on [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+# END rlrssslReallySimpleSSL
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^en/wp-login.php /wp-login.php [QSA,L]
+RewriteRule ^vi/wp-login.php /wp-login.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress

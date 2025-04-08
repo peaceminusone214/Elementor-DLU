@@ -1,0 +1,8 @@
+.elementor-27182 .elementor-element.elementor-element-315ba0ac{--display:flex;--background-transition:0.3s;}.elementor-27182 .elementor-element.elementor-element-166b01f5 .elementor-heading-title{color:var( --e-global-color-7caab3c );font-family:"Roboto", Sans-serif;font-size:24px;font-weight:600;}.elementor-27182 .elementor-element.elementor-element-291b25a6 .elementor-post__meta-data span + span:before{content:"///";}.elementor-27182 .elementor-element.elementor-element-291b25a6{--grid-column-gap:30px;--grid-row-gap:35px;}/* Start custom CSS for heading, class: .elementor-element-166b01f5 */.elementor-27182 .elementor-element.elementor-element-166b01f5 {
+    text-decoration: underline;
+    text-decoration-color: #ddd2b2;
+}/* End custom CSS */
+/* Start custom CSS for posts, class: .elementor-element-291b25a6 */.elementor-post__title a:hover {
+  color: #79a227; /* Màu khi hover */
+  transition: all 0.3s ease;
+}/* End custom CSS */

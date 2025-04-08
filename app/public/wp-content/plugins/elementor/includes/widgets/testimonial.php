@@ -7,7 +7,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 use Elementor\Core\Kits\Documents\Tabs\Global_Colors;
 use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
-use Elementor\Modules\Promotions\Controls\Promotion_Control;
 
 /**
  * Elementor testimonial widget.
@@ -79,21 +78,24 @@ class Widget_Testimonial extends Widget_Base {
 	}
 
 	/**
-	 * Get style dependencies.
+	 * Get widget upsale data.
 	 *
-	 * Retrieve the list of style dependencies the widget requires.
+	 * Retrieve the widget promotion data.
 	 *
-	 * @since 3.24.0
-	 * @access public
+	 * @since 3.18.0
+	 * @access protected
 	 *
-	 * @return array Widget style dependencies.
+	 * @return array Widget promotion data.
 	 */
-	public function get_style_depends(): array {
-		return [ 'widget-testimonial' ];
-	}
-
-	public function has_widget_inner_wrapper(): bool {
-		return ! Plugin::$instance->experiments->is_feature_active( 'e_optimized_markup' );
+	protected function get_upsale_data() {
+		return [
+			'condition' => ! Utils::has_pro(),
+			'image' => esc_url( ELEMENTOR_ASSETS_URL . 'images/go-pro.svg' ),
+			'image_alt' => esc_attr__( 'Upgrade', 'elementor' ),
+			'description' => esc_html__( 'Use interesting masonry layouts and other overlay features with Elementor\'s Pro Gallery widget.', 'elementor' ),
+			'upgrade_url' => esc_url( 'https://go.elementor.com/go-pro-testimonial-widget/' ),
+			'upgrade_text' => esc_html__( 'Upgrade Now', 'elementor' ),
+		];
 	}
 
 	/**
@@ -241,16 +243,6 @@ class Widget_Testimonial extends Widget_Base {
 				'style_transfer' => true,
 			]
 		);
-
-		if ( ! Utils::has_pro() ) {
-			$this->add_control(
-				Utils::TESTIMONIAL_WIDGET . '_promotion',
-				[
-					'label' => esc_html__( 'Loop Carousel widget', 'elementor' ),
-					'type' => Promotion_Control::TYPE,
-				]
-			);
-		}
 
 		$this->end_controls_section();
 
@@ -575,7 +567,7 @@ class Widget_Testimonial extends Widget_Base {
 
 			var imageHtml = '<img src="' + _.escape( imageUrl ) + '" alt="testimonial" />';
 			if ( settings.link.url ) {
-				imageHtml = '<a href="' + elementor.helpers.sanitizeUrl( settings.link.url ) + '">' + imageHtml + '</a>';
+				imageHtml = '<a href="' + _.escape( settings.link.url ) + '">' + imageHtml + '</a>';
 			}
 		}
 
@@ -617,7 +609,7 @@ class Widget_Testimonial extends Widget_Base {
 
 			if ( settings.link.url ) {
 				#>
-				<a href="{{  elementor.helpers.sanitizeUrl( settings.link.url ) }}" {{{ view.getRenderAttributeString( 'testimonial_name' ) }}}>{{{ settings.testimonial_name }}}</a>
+				<a href="{{ settings.link.url }}" {{{ view.getRenderAttributeString( 'testimonial_name' ) }}}>{{{ settings.testimonial_name }}}</a>
 				<#
 			} else {
 				#>
@@ -633,7 +625,7 @@ class Widget_Testimonial extends Widget_Base {
 
 			if ( settings.link.url ) {
 				#>
-				<a href="{{  elementor.helpers.sanitizeUrl( settings.link.url ) }}" {{{ view.getRenderAttributeString( 'testimonial_job' ) }}}>{{{ settings.testimonial_job }}}</a>
+				<a href="{{ settings.link.url }}" {{{ view.getRenderAttributeString( 'testimonial_job' ) }}}>{{{ settings.testimonial_job }}}</a>
 				<#
 			} else {
 				#>

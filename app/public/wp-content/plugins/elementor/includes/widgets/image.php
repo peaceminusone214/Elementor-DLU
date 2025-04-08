@@ -94,24 +94,6 @@ class Widget_Image extends Widget_Base {
 	}
 
 	/**
-	 * Get style dependencies.
-	 *
-	 * Retrieve the list of style dependencies the widget requires.
-	 *
-	 * @since 3.24.0
-	 * @access public
-	 *
-	 * @return array Widget style dependencies.
-	 */
-	public function get_style_depends(): array {
-		return [ 'widget-image' ];
-	}
-
-	public function has_widget_inner_wrapper(): bool {
-		return ! Plugin::$instance->experiments->is_feature_active( 'e_optimized_markup' );
-	}
-
-	/**
 	 * Register image widget controls.
 	 *
 	 * Adds different input fields to allow the user to change and customize the widget settings.
@@ -383,7 +365,6 @@ class Widget_Image extends Widget_Base {
 					'fill' => esc_html__( 'Fill', 'elementor' ),
 					'cover' => esc_html__( 'Cover', 'elementor' ),
 					'contain' => esc_html__( 'Contain', 'elementor' ),
-					'scale-down' => esc_html__( 'Scale Down', 'elementor' ),
 				],
 				'default' => '',
 				'selectors' => [
@@ -414,7 +395,7 @@ class Widget_Image extends Widget_Base {
 				],
 				'condition' => [
 					'height[size]!' => '',
-					'object-fit' => [ 'cover', 'contain', 'scale-down' ],
+					'object-fit' => 'cover',
 				],
 			]
 		);
@@ -666,7 +647,7 @@ class Widget_Image extends Widget_Base {
 					],
 				],
 				'selectors' => [
-					'{{WRAPPER}} .widget-image-caption' => 'margin-block-start: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .widget-image-caption' => 'margin-top: {{SIZE}}{{UNIT}};',
 				],
 			]
 		);
@@ -840,7 +821,7 @@ class Widget_Image extends Widget_Base {
 			}
 
 			if ( link_url ) {
-					#><a class="elementor-clickable" data-elementor-open-lightbox="{{ settings.open_lightbox }}" href="{{ elementor.helpers.sanitizeUrl( link_url ) }}"><#
+					#><a class="elementor-clickable" data-elementor-open-lightbox="{{ settings.open_lightbox }}" href="{{ link_url }}"><#
 			}
 						#><img src="{{ image_url }}" class="{{ imgClass }}" /><#
 

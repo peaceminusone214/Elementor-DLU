@@ -1,0 +1,30 @@
+.elementor-27142 .elementor-element.elementor-element-3e6ca755{--display:flex;--background-transition:0.3s;}.elementor-27142 .elementor-element.elementor-element-473ad753 .elementor-heading-title{color:var( --e-global-color-7caab3c );font-family:"Roboto", Sans-serif;font-size:24px;font-weight:600;}.elementor-27142 .elementor-element.elementor-element-7a6204d0{--grid-column-gap:0px;--grid-row-gap:9px;}.elementor-27142 .elementor-element.elementor-element-7a6204d0 .elementor-post__title, .elementor-27142 .elementor-element.elementor-element-7a6204d0 .elementor-post__title a{color:var( --e-global-color-c359a05 );font-family:"Roboto", Sans-serif;font-size:14px;font-weight:600;}/* Start custom CSS for heading, class: .elementor-element-473ad753 */.elementor-27142 .elementor-element.elementor-element-473ad753 {
+    text-decoration: underline;
+    text-decoration-color: #ddd2b2;
+}/* End custom CSS */
+/* Start custom CSS for posts, class: .elementor-element-7a6204d0 */.elementor-post__title a {
+  transition: all 0.3s ease !important;
+}
+
+.elementor-post__title a:hover {
+  color: #79a227 !important; /* Màu khi hover */
+}
+
+.elementor-27142 .elementor-element.elementor-element-7a6204d0 h1, 
+.elementor-27142 .elementor-element.elementor-element-7a6204d0 h2, 
+.elementor-27142 .elementor-element.elementor-element-7a6204d0 h3, 
+.elementor-27142 .elementor-element.elementor-element-7a6204d0 .elementor-heading-title {
+    position: relative;
+    padding-left: 30px;
+}
+
+.elementor-27142 .elementor-element.elementor-element-7a6204d0 h1::before, 
+.elementor-27142 .elementor-element.elementor-element-7a6204d0 h2::before, 
+.elementor-27142 .elementor-element.elementor-element-7a6204d0 h3::before, 
+.elementor-27142 .elementor-element.elementor-element-7a6204d0 .elementor-heading-title::before {
+    content: ">> ";
+    font-weight: bold;
+    color: #79a227; /* Tùy chỉnh màu sắc */
+    position: absolute;
+    left: 0;
+}/* End custom CSS */

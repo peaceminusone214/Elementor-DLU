@@ -11,7 +11,6 @@ use Elementor\Group_Control_Text_Shadow;
 use Elementor\Group_Control_Typography;
 use Elementor\Icons_Manager;
 use Elementor\Widget_Base;
-use Elementor\Plugin;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -525,8 +524,6 @@ trait Button_Trait {
 			return;
 		}
 
-		$optimized_markup = Plugin::$instance->experiments->is_feature_active( 'e_optimized_markup' );
-
 		$instance->add_render_attribute( 'wrapper', 'class', 'elementor-button-wrapper' );
 
 		$instance->add_render_attribute( 'button', 'class', 'elementor-button' );
@@ -552,15 +549,11 @@ trait Button_Trait {
 			$instance->add_render_attribute( 'button', 'class', 'elementor-animation-' . $settings['hover_animation'] );
 		}
 		?>
-		<?php if ( ! $optimized_markup ) : ?>
 		<div <?php $instance->print_render_attribute_string( 'wrapper' ); ?>>
-		<?php endif; ?>
 			<a <?php $instance->print_render_attribute_string( 'button' ); ?>>
 				<?php $this->render_text( $instance ); ?>
 			</a>
-		<?php if ( ! $optimized_markup ) : ?>
 		</div>
-		<?php endif; ?>
 		<?php
 	}
 
@@ -579,14 +572,12 @@ trait Button_Trait {
 			return;
 		}
 
-		const optimized_markup = elementorCommon.config.experimentalFeatures.e_optimized_markup;
-
 		view.addRenderAttribute( 'wrapper', 'class', 'elementor-button-wrapper' );
 
 		view.addRenderAttribute( 'button', 'class', 'elementor-button' );
 
 		if ( '' !== settings.link.url ) {
-			view.addRenderAttribute( 'button', 'href', elementor.helpers.sanitizeUrl( settings.link.url ) );
+			view.addRenderAttribute( 'button', 'href', settings.link.url );
 			view.addRenderAttribute( 'button', 'class', 'elementor-button-link' );
 		} else {
 			view.addRenderAttribute( 'button', 'role', 'button' );
@@ -610,9 +601,7 @@ trait Button_Trait {
 		var iconHTML = elementor.helpers.renderIcon( view, settings.selected_icon, { 'aria-hidden': true }, 'i' , 'object' ),
 		migrated = elementor.helpers.isIconMigrated( settings, 'selected_icon' );
 		#>
-		<# if ( ! optimized_markup ) { #>
 		<div {{{ view.getRenderAttributeString( 'wrapper' ) }}}>
-		<# } #>
 			<a {{{ view.getRenderAttributeString( 'button' ) }}}>
 				<span class="elementor-button-content-wrapper">
 					<# if ( settings.icon || settings.selected_icon ) { #>
@@ -629,9 +618,7 @@ trait Button_Trait {
 					<# } #>
 				</span>
 			</a>
-		<# if ( ! optimized_markup ) { #>
 		</div>
-		<# } #>
 		<?php
 	}
 

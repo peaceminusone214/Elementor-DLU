@@ -1,0 +1,15 @@
+.elementor-27131 .elementor-element.elementor-element-41692b9b{--display:flex;--background-transition:0.3s;}.elementor-27131 .elementor-element.elementor-element-9045b2e .elementor-heading-title{color:var( --e-global-color-7caab3c );font-family:"Roboto", Sans-serif;font-size:24px;font-weight:600;}.elementor-27131 .elementor-element.elementor-element-3becb58a .elementor-post__meta-data span + span:before{content:"///";}.elementor-27131 .elementor-element.elementor-element-3becb58a{--grid-column-gap:0px;--grid-row-gap:5px;}.elementor-27131 .elementor-element.elementor-element-3becb58a .elementor-post__title, .elementor-27131 .elementor-element.elementor-element-3becb58a .elementor-post__title a{font-family:"Roboto", Sans-serif;font-size:15px;font-weight:600;}/* Start custom CSS for heading, class: .elementor-element-9045b2e */.elementor-27131 .elementor-element.elementor-element-9045b2e {
+    text-decoration: underline;
+    text-decoration-color: #ddd2b2;
+}/* End custom CSS */
+/* Start custom CSS for posts, class: .elementor-element-3becb58a */.elementor-27131 .elementor-element.elementor-element-3becb58a .elementor-post__title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;       /* 👈 Số dòng hiển thị */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.elementor-post__title a:hover {
+  color: #79a227; /* Màu khi hover */
+  transition: all 0.3s ease;
+}/* End custom CSS */

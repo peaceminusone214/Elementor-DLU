@@ -1,0 +1,1538 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 03:59:54
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 7.4.33                                |7.4.33
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.33 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/www/wwwroot/dlu.edu.vn"
+REQUEST URL_________: "https://dlu.edu.vn"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+INSTALL MODES_______: CLASSIC
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/www/wwwroot/dlu.edu.vn"
+URL_NEW_____________: "https://dlu.edu.vn"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/www/wwwroot/dlu.edu.vn/20231012_truongdaihocdalat_[HASH]_20231012145838_archive.zip"
+ARCHIVE SIZE________: 9.27GB
+CREATED_____________: 2023-10-12 14:58:38
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 4.5.13.2
+LICENSE_____________: Business
+PACKAGE COMPONENTS__: Database, Core, Plugins, Themes, Media, Other
+DB VERSION__________: 10.3.38
+DB FILE SIZE________: 120.8MB
+DB TABLES___________: 56
+DB ROWS_____________: 126904
+URL HOME____________: https://dlu.edu.vn
+URL CORE____________: https://dlu.edu.vn
+URL CONTENT_________: https://dlu.edu.vn/wp-content
+URL UPLOAD__________: https://dlu.edu.vn/wp-content/uploads
+URL PLUGINS_________: https://dlu.edu.vn/wp-content/plugins
+URL MU PLUGINS______: https://dlu.edu.vn/wp-content/mu-plugins
+URL THEMES__________: https://dlu.edu.vn/wp-content/themes
+PATH HOME___________: /home/dlu.edu.vn/public_html
+PATH ABS____________: /home/dlu.edu.vn/public_html
+PATH WPCONFIG_______: /home/dlu.edu.vn/public_html
+PATH WPCONTENT______: /home/dlu.edu.vn/public_html/wp-content
+PATH UPLOADS________: /home/dlu.edu.vn/public_html/wp-content/uploads
+PATH PLUGINS________: /home/dlu.edu.vn/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/dlu.edu.vn/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/dlu.edu.vn/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "dlu.edu.vn/"
+
+PLUGINS
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:true ]  Akismet Anti-Spam
+PLUGIN [SLUG:change-banner-for-category/change-banner-for-category.php][ON:true ]  Banner Category - IT Center of DLU
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:default-feauture-image-for-post/default-feature-image-for-post.php][ON:true ]  Default Feature Image For Post - IT Center of DLU
+PLUGIN [SLUG:different-menus-in-different-pages/different-menus-in-different-page.php][ON:true ]  Different Menus in Different Pages
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:embed-any-document/awsm-embed.php                 ][ON:true ]  Embed Any Document - Embed PDF, Word, PowerPoint and Excel
+PLUGIN [SLUG:ez-file-manager/ezfm.php                          ][ON:true ]  EZ File Manager - IT Center of DLU
+PLUGIN [SLUG:future_event/future_event.php                     ][ON:true ]  Future Event - IT Center of DLU
+PLUGIN [SLUG:litespeed-cache/litespeed-cache.php               ][ON:true ]  LiteSpeed Cache
+PLUGIN [SLUG:multiple-domain-mapping-on-single-site/multidomainmapping.php][ON:true ]  Multiple Domain Mapping on single site
+PLUGIN [SLUG:pdf-embedder/pdf_embedder.php                     ][ON:false]  PDF Embedder
+PLUGIN [SLUG:capabilities-categories/cc.php                    ][ON:true ]  Phân quyền người dùng CICT - DLU
+PLUGIN [SLUG:pro_gallery/pro-gallery.php                       ][ON:true ]  Pro Gallery - IT Center of DLU
+PLUGIN [SLUG:re-add-underline-justify/re-add-underline-justify.php][ON:true ]  Re-add text underline and justify
+PLUGIN [SLUG:really-simple-ssl/rlrsssl-really-simple-ssl.php   ][ON:true ]  Really Simple SSL
+PLUGIN [SLUG:google-site-kit/google-site-kit.php               ][ON:true ]  Site Kit by Google
+PLUGIN [SLUG:smart-slider-3/smart-slider-3.php                 ][ON:true ]  Smart Slider 3
+PLUGIN [SLUG:sucuri-scanner/sucuri.php                         ][ON:true ]  Sucuri Security - Auditing, Malware Scanner and Hardening
+PLUGIN [SLUG:wp-paginate/wp-paginate.php                       ][ON:true ]  WP-Paginate
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:false]  WPForms Lite
+PLUGIN [SLUG:wp-logo-showcase-responsive-slider-slider/logo-showcase.php][ON:true ]  WP Logo Showcase Responsive Slider
+PLUGIN [SLUG:wp-mail-smtp/wp_mail_smtp.php                     ][ON:true ]  WP Mail SMTP
+PLUGIN [SLUG:wpml-cms-nav/plugin.php                           ][ON:true ]  WPML CMS Nav
+PLUGIN [SLUG:wpml-media-translation/plugin.php                 ][ON:true ]  WPML Media
+PLUGIN [SLUG:sitepress-multilingual-cms/sitepress.php          ][ON:true ]  WPML Multilingual CMS
+PLUGIN [SLUG:wpml-sticky-links/plugin.php                      ][ON:true ]  WPML Sticky Links
+PLUGIN [SLUG:wpml-string-translation/plugin.php                ][ON:true ]  WPML String Translation
+PLUGIN [SLUG:wpml-translation-analytics/plugin.php             ][ON:true ]  WPML Translation Analytics
+PLUGIN [SLUG:wps-hide-login/wps-hide-login.php                 ][ON:true ]  WPS Hide Login
+
+********************************************************************************
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/ctrls/ctrl.base.php:189][DELTA:   0.03058]  MESSAGE:END RENDER PAGE
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+SET VALUE install-type
+SET VALUE path_new
+SET VALUE url_new
+SET VALUE path_core_new
+SET VALUE siteurl
+SET VALUE path_cont_new
+SET VALUE url_cont_new
+SET VALUE path_upl_new
+SET VALUE url_upl_new
+SET VALUE path_plug_new
+SET VALUE url_plug_new
+SET VALUE path_muplug_new
+SET VALUE url_muplug_new
+SET VALUE subsite_id
+SET VALUE subsite_owr_mapping
+SET VALUE archive_action
+SET VALUE archive_engine
+SET VALUE archive_engine_wpskip
+SET VALUE db-engine
+SET VALUE mode_chunking
+SET VALUE users_mode
+SET VALUE mu_replace
+SET VALUE subsite_users_mode
+SET VALUE set_file_perms
+SET VALUE set_dir_perms
+SET VALUE file_perms_value
+SET VALUE dir_perms_value
+SET VALUE exe_safe_mode
+SET VALUE wp_config
+SET VALUE ht_config
+SET VALUE other_config
+SET VALUE zip_filetime
+SET VALUE remove-redundant
+SET VALUE remove-users-without-permissions
+SET VALUE blogname
+SET VALUE accept-warnings
+SET VALUE zip_throttling
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/ctrls/ctrl.base.php:189][DELTA:   0.01304]  MESSAGE:END RENDER PAGE
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: good
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Partial Package Check" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Partial Package Check" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+LOG-TIME[DELTA:   0.00528]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "Wordpress Configuration" [CLASS: DUPX_Validation_test_wp_config]
+LOG-TIME[DELTA:   0.00156]  MESSAGE:TEST "Wordpress Configuration" RESULT: passed
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00623]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Extract only files" [CLASS: DUPX_Validation_test_db_excluded]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Extract only files" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00086]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00036]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Multiple WP Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/www/wwwroot/dlu.edu.vn/dup-installer/classes/database/class.db.php:686] MSG: SELECT command denied to user 'dlu'@'localhost' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'dlu' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /www/wwwroot/dlu.edu.vn/dup-installer/classes/validation/class.validation.database.service.php[1090]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /www/wwwroot/dlu.edu.vn/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[30]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /www/wwwroot/dlu.edu.vn/dup-installer/classes/validation/class.validation.abstract.item.php[56]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /www/wwwroot/dlu.edu.vn/dup-installer/classes/validation/class.validation.manager.php[246]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /www/wwwroot/dlu.edu.vn/dup-installer/classes/validation/class.validation.manager.php[214]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /www/wwwroot/dlu.edu.vn/dup-installer/ctrls/classes/class.ctrl.ajax.php[186]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /www/wwwroot/dlu.edu.vn/dup-installer/ctrls/classes/class.ctrl.ajax.php[110]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /www/wwwroot/dlu.edu.vn/dup-installer/main.installer.php[47]
+
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.09838]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00039]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00060]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+SET VALUE install-type
+SET VALUE path_new
+SET VALUE url_new
+SET VALUE path_core_new
+SET VALUE siteurl
+SET VALUE path_cont_new
+SET VALUE url_cont_new
+SET VALUE path_upl_new
+SET VALUE url_upl_new
+SET VALUE path_plug_new
+SET VALUE url_plug_new
+SET VALUE path_muplug_new
+SET VALUE url_muplug_new
+SET VALUE subsite_id
+SET VALUE subsite_owr_mapping
+SET VALUE archive_action
+SET VALUE archive_engine
+SET VALUE archive_engine_wpskip
+SET VALUE db-engine
+SET VALUE mode_chunking
+SET VALUE users_mode
+SET VALUE mu_replace
+SET VALUE subsite_users_mode
+SET VALUE set_file_perms
+SET VALUE set_dir_perms
+SET VALUE file_perms_value
+SET VALUE dir_perms_value
+SET VALUE exe_safe_mode
+SET VALUE wp_config
+SET VALUE ht_config
+SET VALUE other_config
+SET VALUE zip_filetime
+SET VALUE remove-redundant
+SET VALUE remove-users-without-permissions
+SET VALUE blogname
+SET VALUE accept-warnings
+SET VALUE zip_throttling
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:00:20
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Trường Đại học Đà Lạt"
+HOME URL NEW________: "https://dlu.edu.vn"
+SITE URL NEW________: "https://dlu.edu.vn"
+CONTENT URL NEW_____: "https://dlu.edu.vn/wp-content"
+UPLOAD URL NEW______: "https://dlu.edu.vn/wp-content/uploads"
+PLUGINS URL NEW_____: "https://dlu.edu.vn/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://dlu.edu.vn/wp-content/mu-plugins"
+HOME PATH NEW_______: "/www/wwwroot/dlu.edu.vn"
+SITE PATH NEW_______: "/www/wwwroot/dlu.edu.vn"
+CONTENT PATH NEW____: "/www/wwwroot/dlu.edu.vn/wp-content"
+UPLOAD PATH NEW_____: "/www/wwwroot/dlu.edu.vn/wp-content/uploads"
+PLUGINS PATH NEW____: "/www/wwwroot/dlu.edu.vn/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/www/wwwroot/dlu.edu.vn/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/www/wwwroot/dlu.edu.vn/dup-installer"
+	FILE: "/www/wwwroot/dlu.edu.vn/20231012_truongdaihocdalat_[HASH]_20231012145838_installer-backup.php"
+	FILE: "/www/wwwroot/dlu.edu.vn/20231012_truongdaihocdalat_[HASH]_20231012145838_archive.zip"
+	FILE: "/www/wwwroot/dlu.edu.vn/installer.php"
+	FILE: "/www/wwwroot/dlu.edu.vn/dup-installer-bootlog__567f4c0-12145838.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20231012_truongdaihocdalat_[HASH]_20231012145838_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0301 sec. - Files processed: 20,674 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 20674
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0282 sec. - Files processed: 24,256 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 24256
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0196 sec. - Files processed: 26,159 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 26159
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0305 sec. - Files processed: 28,441 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 28441
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.3763 sec. - Files processed: 31,883 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 31883
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0434 sec. - Files processed: 36,537 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 36537
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1039 sec. - Files processed: 39,753 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 39753
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0191 sec. - Files processed: 42,696 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 42696
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0321 sec. - Files processed: 46,829 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 46829
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0265 sec. - Files processed: 50,347 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 50347
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 52850
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 04:01:12 - RUNTIME: 51.9947 sec. - Files processed: 51,929 of 51,929
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 04:01:12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_capabilities_user"____________________________[ROWS:      14] [EXTRACT|REPLACE] [INST NAME: wp_capabilities_user]
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:     112] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_entities]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_packages]
+TABLE "wp_icl_cms_nav_cache"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_cms_nav_cache]
+TABLE "wp_icl_content_status"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_content_status]
+TABLE "wp_icl_core_status"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_core_status]
+TABLE "wp_icl_flags"____________________________________[ROWS:      65] [EXTRACT|REPLACE] [INST NAME: wp_icl_flags]
+TABLE "wp_icl_languages"________________________________[ROWS:      65] [EXTRACT|REPLACE] [INST NAME: wp_icl_languages]
+TABLE "wp_icl_languages_translations"___________________[ROWS:    4225] [EXTRACT|REPLACE] [INST NAME: wp_icl_languages_translations]
+TABLE "wp_icl_locale_map"_______________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_icl_locale_map]
+TABLE "wp_icl_message_status"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_message_status]
+TABLE "wp_icl_mo_files_domains"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_icl_mo_files_domains]
+TABLE "wp_icl_node"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_node]
+TABLE "wp_icl_reminders"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_reminders]
+TABLE "wp_icl_strings"__________________________________[ROWS:    8791] [EXTRACT|REPLACE] [INST NAME: wp_icl_strings]
+TABLE "wp_icl_string_batches"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_string_batches]
+TABLE "wp_icl_string_packages"__________________________[ROWS:     979] [EXTRACT|REPLACE] [INST NAME: wp_icl_string_packages]
+TABLE "wp_icl_string_positions"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_string_positions]
+TABLE "wp_icl_string_status"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_string_status]
+TABLE "wp_icl_string_translations"______________________[ROWS:     681] [EXTRACT|REPLACE] [INST NAME: wp_icl_string_translations]
+TABLE "wp_icl_translate"________________________________[ROWS:   16309] [EXTRACT|REPLACE] [INST NAME: wp_icl_translate]
+TABLE "wp_icl_translate_job"____________________________[ROWS:    1193] [EXTRACT|REPLACE] [INST NAME: wp_icl_translate_job]
+TABLE "wp_icl_translations"_____________________________[ROWS:   14406] [EXTRACT|REPLACE] [INST NAME: wp_icl_translations]
+TABLE "wp_icl_translation_batches"______________________[ROWS:      55] [EXTRACT|REPLACE] [INST NAME: wp_icl_translation_batches]
+TABLE "wp_icl_translation_downloads"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_icl_translation_downloads]
+TABLE "wp_icl_translation_status"_______________________[ROWS:    5991] [EXTRACT|REPLACE] [INST NAME: wp_icl_translation_status]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_litespeed_url"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_url]
+TABLE "wp_litespeed_url_file"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_url_file]
+TABLE "wp_nextend2_image_storage"_______________________[ROWS:     119] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_image_storage]
+TABLE "wp_nextend2_section_storage"_____________________[ROWS:      32] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_section_storage]
+TABLE "wp_nextend2_smartslider3_generators"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_smartslider3_generators]
+TABLE "wp_nextend2_smartslider3_sliders"________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_smartslider3_sliders]
+TABLE "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_smartslider3_sliders_xref]
+TABLE "wp_nextend2_smartslider3_slides"_________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_smartslider3_slides]
+TABLE "wp_njt_fastdup_entities"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_njt_fastdup_entities]
+TABLE "wp_njt_fastdup_packages"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_njt_fastdup_packages]
+TABLE "wp_options"______________________________________[ROWS:     731] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:   54550] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:   15895] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_post_views"___________________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wp_post_views]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:     317] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:    3784] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     317] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:     486] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:      17] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:     111] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_tasks_meta]
+TABLE "wp_wpmailsmtp_debug_events"______________________[ROWS:    6893] [EXTRACT|REPLACE] [INST NAME: wp_wpmailsmtp_debug_events]
+TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:      91] [EXTRACT|REPLACE] [INST NAME: wp_wpmailsmtp_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.6.7 -- Build Server: 10.3.38
+FILE SIZE:	dup-database__[HASH].sql (69.77MB)
+TIMEOUT:	5000
+MAXPACK:	1073741824
+SQLMODE-GLOBAL:	STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`dlu`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 10036772
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 42340678
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	620
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:     1]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     3]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     3]
+TABLE "wp_capabilities_user"____________________________[ROWS:    14]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:   112]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     7]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     1]
+TABLE "wp_icl_cms_nav_cache"____________________________[ROWS:     0]
+TABLE "wp_icl_content_status"___________________________[ROWS:     0]
+TABLE "wp_icl_core_status"______________________________[ROWS:     0]
+TABLE "wp_icl_flags"____________________________________[ROWS:    65]
+TABLE "wp_icl_languages"________________________________[ROWS:    65]
+TABLE "wp_icl_languages_translations"___________________[ROWS:  4225]
+TABLE "wp_icl_locale_map"_______________________________[ROWS:     2]
+TABLE "wp_icl_message_status"___________________________[ROWS:     0]
+TABLE "wp_icl_mo_files_domains"_________________________[ROWS:     1]
+TABLE "wp_icl_node"_____________________________________[ROWS:     0]
+TABLE "wp_icl_reminders"________________________________[ROWS:     0]
+TABLE "wp_icl_string_batches"___________________________[ROWS:     0]
+TABLE "wp_icl_string_packages"__________________________[ROWS:   979]
+TABLE "wp_icl_string_positions"_________________________[ROWS:     0]
+TABLE "wp_icl_string_status"____________________________[ROWS:     0]
+TABLE "wp_icl_string_translations"______________________[ROWS:   681]
+TABLE "wp_icl_strings"__________________________________[ROWS:  8791]
+TABLE "wp_icl_translate"________________________________[ROWS: 16309]
+TABLE "wp_icl_translate_job"____________________________[ROWS:  1193]
+TABLE "wp_icl_translation_batches"______________________[ROWS:    55]
+TABLE "wp_icl_translation_downloads"____________________[ROWS:     0]
+TABLE "wp_icl_translation_status"_______________________[ROWS:  5991]
+TABLE "wp_icl_translations"_____________________________[ROWS: 14406]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_litespeed_url"________________________________[ROWS:     0]
+TABLE "wp_litespeed_url_file"___________________________[ROWS:     0]
+TABLE "wp_nextend2_image_storage"_______________________[ROWS:   119]
+TABLE "wp_nextend2_section_storage"_____________________[ROWS:    32]
+TABLE "wp_nextend2_smartslider3_generators"_____________[ROWS:     0]
+TABLE "wp_nextend2_smartslider3_sliders"________________[ROWS:     8]
+TABLE "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     7]
+TABLE "wp_nextend2_smartslider3_slides"_________________[ROWS:    18]
+TABLE "wp_njt_fastdup_entities"_________________________[ROWS:     0]
+TABLE "wp_njt_fastdup_packages"_________________________[ROWS:     1]
+TABLE "wp_options"______________________________________[ROWS:   731]
+TABLE "wp_post_views"___________________________________[ROWS:    10]
+TABLE "wp_postmeta"_____________________________________[ROWS: 54550]
+TABLE "wp_posts"________________________________________[ROWS: 15895]
+TABLE "wp_term_relationships"___________________________[ROWS:  3784]
+TABLE "wp_term_taxonomy"________________________________[ROWS:   317]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:   317]
+TABLE "wp_usermeta"_____________________________________[ROWS:   486]
+TABLE "wp_users"________________________________________[ROWS:    17]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:   111]
+TABLE "wp_wpmailsmtp_debug_events"______________________[ROWS:  6893]
+TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:    91]
+
+INSERT DATA RUNTIME: 12.8046 sec.
+STEP-2 COMPLETE @ 04:01:25 - RUNTIME: 12.8046 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/dlu.edu.vn/public_html REPLACE: /www/wwwroot/dlu.edu.vn [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:01:25
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = 1], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 2048M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` = "duplicator_pro_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+DATABASE OPTIONS DELETED [ROWS:    52]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_capabilities_user"____________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_capabilities_user][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:   112][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_cms_nav_cache"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_content_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_core_status"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_flags"____________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_flags][0]
+
+EVALUATE TABLE: "wp_icl_languages"________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_languages][0]
+
+EVALUATE TABLE: "wp_icl_languages_translations"___________________[ROWS:  4225][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_languages_translations][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_languages_translations][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_languages_translations][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_languages_translations][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_languages_translations][4]
+
+EVALUATE TABLE: "wp_icl_locale_map"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_locale_map][0]
+
+EVALUATE TABLE: "wp_icl_message_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_mo_files_domains"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_mo_files_domains][0]
+
+EVALUATE TABLE: "wp_icl_node"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_reminders"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_strings"__________________________________[ROWS:  8791][PG:   9][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_strings][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_strings][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_strings][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_strings][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_strings][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_strings][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_strings][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_strings][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_strings][8]
+
+EVALUATE TABLE: "wp_icl_string_batches"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_packages"__________________________[ROWS:   979][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_string_packages][0]
+
+EVALUATE TABLE: "wp_icl_string_positions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_status"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_translations"______________________[ROWS:   681][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_string_translations][0]
+
+EVALUATE TABLE: "wp_icl_translate"________________________________[ROWS: 16309][PG:  17][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][14]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][15]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate][16]
+
+EVALUATE TABLE: "wp_icl_translate_job"____________________________[ROWS:  1193][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate_job][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translate_job][1]
+
+EVALUATE TABLE: "wp_icl_translations"_____________________________[ROWS: 14406][PG:  15][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translations][14]
+
+EVALUATE TABLE: "wp_icl_translation_batches"______________________[ROWS:    55][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translation_batches][0]
+
+EVALUATE TABLE: "wp_icl_translation_downloads"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_translation_status"_______________________[ROWS:  5991][PG:   6][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translation_status][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translation_status][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translation_status][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translation_status][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translation_status][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_icl_translation_status][5]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_url"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_url_file"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_image_storage"_______________________[ROWS:   119][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_nextend2_image_storage][0]
+
+EVALUATE TABLE: "wp_nextend2_section_storage"_____________________[ROWS:    32][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_nextend2_section_storage][0]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_generators"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders"________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_nextend2_smartslider3_sliders][0]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     7][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_slides"_________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_nextend2_smartslider3_slides][0]
+
+EVALUATE TABLE: "wp_njt_fastdup_entities"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_njt_fastdup_packages"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_njt_fastdup_packages][0]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   679][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 54550][PG:  55][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][14]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][15]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][16]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][17]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][18]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][19]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][20]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][21]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][22]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][23]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][24]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][25]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][26]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][27]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][28]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][29]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][30]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][31]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][32]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][33]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][34]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][35]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][36]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][37]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][38]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][39]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][40]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][41]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][42]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][43]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][44]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][45]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][46]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][47]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][48]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][49]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][50]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][51]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][52]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][53]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][54]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS: 15895][PG:  16][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][14]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][15]
+
+EVALUATE TABLE: "wp_post_views"___________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_post_views][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:   317][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:  3784][PG:   4][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:   317][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   486][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:   111][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_tasks_meta][0]
+
+EVALUATE TABLE: "wp_wpmailsmtp_debug_events"______________________[ROWS:  6893][PG:   7][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_debug_events][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_debug_events][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_debug_events][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_debug_events][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_debug_events][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_debug_events][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_debug_events][6]
+
+EVALUATE TABLE: "wp_wpmailsmtp_tasks_meta"________________________[ROWS:    91][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dlu.edu.vn/public_html" ====================> "/www/wwwroot/dlu.edu.vn"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:56 	|	 Rows:132447 	|	 Cells:1185781 
+UPDATED:	Tables:5 	|	 Rows:6905 	|	 Cells:6905 
+ERRORS:		0 
+RUNTIME:	4.459700 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/www/wwwroot/dlu.edu.vn/wp-config.php
+New .htaccess file created:/www/wwwroot/dlu.edu.vn/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""dlu""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "true"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+UPDATE OPTION home ON TABLE wp_options
+UPDATE OPTION siteurl ON TABLE wp_options
+UPDATE OPTION duplicator_pro_exe_safe_mode ON TABLE wp_options
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 0 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/www/wwwroot/dlu.edu.vn"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:01:29 - RUNTIME: 4.5667 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/src/Core/Bootstrap.php:76] RESET TIME
+STEP ACTION: "on-validate"
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[NOTICE] Plugin WPS Hide Login disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically due to issues that one may encounter when migrating. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] WPS Hide Login has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate WPS Hide Login after you login.
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /www/wwwroot/dlu.edu.vn/index.php
+E_WARNING file_put_contents(/www/wwwroot/dlu.edu.vn/wp-content/uploads/sucuri/sucuri-settings.php): failed to open stream: No such file or directory
+	FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[225]
+	--- TRACE ---
+	FUNCTION: file_put_contents             FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[225]
+	CLASS___: SucuriScanOption::writeNewOptionsFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[327]
+	CLASS___: SucuriScanOption::updateOptionFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[299]
+	CLASS___: SucuriScanOption::getOption   FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[368]
+	CLASS___: SucuriScanOption::isEnabled   FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/lastlogins.php[430]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/sucuri.php[232]
+	FUNCTION: include_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-settings.php[391]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-config.php[107]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/index.php[17]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_WARNING file_put_contents(/www/wwwroot/dlu.edu.vn/wp-content/uploads/sucuri/sucuri-settings.php): failed to open stream: No such file or directory
+	FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[225]
+	--- TRACE ---
+	FUNCTION: file_put_contents             FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[225]
+	CLASS___: SucuriScanOption::writeNewOptionsFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[327]
+	CLASS___: SucuriScanOption::updateOptionFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[299]
+	CLASS___: SucuriScanOption::getOption   FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[368]
+	CLASS___: SucuriScanOption::isEnabled   FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/base.lib.php[584]
+	CLASS___: SucuriScan::supportReverseProxyFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/interface.lib.php[52]
+	CLASS___: SucuriScanInterface::initializeFILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-hook.php[292]
+	CLASS___: WP_Hook->apply_filters        FILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-hook.php[316]
+	CLASS___: WP_Hook->do_action            FILE: /www/wwwroot/dlu.edu.vn/wp-includes/plugin.php[484]
+	FUNCTION: do_action                     FILE: /www/wwwroot/dlu.edu.vn/wp-settings.php[560]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-config.php[107]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/index.php[17]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_WARNING call_user_func_array() expects parameter 1 to be a valid callback, function 'google_site_tag' not found or invalid function name
+	FILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-hook.php[292]
+	--- TRACE ---
+	CLASS___: WP_Hook->apply_filters        FILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-hook.php[316]
+	CLASS___: WP_Hook->do_action            FILE: /www/wwwroot/dlu.edu.vn/wp-includes/plugin.php[484]
+	FUNCTION: do_action                     FILE: /www/wwwroot/dlu.edu.vn/wp-includes/general-template.php[3009]
+	FUNCTION: wp_head                       FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/header.php[24]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template.php[730]
+	FUNCTION: load_template                 FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template.php[676]
+	FUNCTION: locate_template               FILE: /www/wwwroot/dlu.edu.vn/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/templates/template-home.php[12]
+	FUNCTION: include                       FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/index.php[17]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_WARNING call_user_func_array() expects parameter 1 to be a valid callback, function 'google_meta_tag' not found or invalid function name
+	FILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-hook.php[292]
+	--- TRACE ---
+	CLASS___: WP_Hook->apply_filters        FILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-hook.php[316]
+	CLASS___: WP_Hook->do_action            FILE: /www/wwwroot/dlu.edu.vn/wp-includes/plugin.php[484]
+	FUNCTION: do_action                     FILE: /www/wwwroot/dlu.edu.vn/wp-includes/general-template.php[3041]
+	FUNCTION: wp_body_open                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/header.php[31]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template.php[730]
+	FUNCTION: load_template                 FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template.php[676]
+	FUNCTION: locate_template               FILE: /www/wwwroot/dlu.edu.vn/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/templates/template-home.php[12]
+	FUNCTION: include                       FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/index.php[17]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_NOTICE Undefined variable: news_portal_block_layout
+	FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/inc/widgets/np_block_post_exculde_cat.php[115]
+	--- TRACE ---
+	CLASS___: News_Portal_Block_Post_Exclude_Categories->widgetFILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-widget.php[380]
+	CLASS___: WP_Widget->display_callback   FILE: /www/wwwroot/dlu.edu.vn/wp-includes/widgets.php[823]
+	FUNCTION: dynamic_sidebar               FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/templates/template-home.php[39]
+	FUNCTION: include                       FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/index.php[17]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_NOTICE Undefined variable: news_portal_block_layout
+	FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/inc/widgets/np-notification.php[146]
+	--- TRACE ---
+	CLASS___: News_Portal_Notificaiton_Posts->widgetFILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-widget.php[380]
+	CLASS___: WP_Widget->display_callback   FILE: /www/wwwroot/dlu.edu.vn/wp-includes/widgets.php[823]
+	FUNCTION: dynamic_sidebar               FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/templates/template-home.php[42]
+	FUNCTION: include                       FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/index.php[17]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_NOTICE Undefined variable: news_portal_block_layout
+	FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/inc/widgets/auto-all-notifcations-dlu.php[87]
+	--- TRACE ---
+	CLASS___: News_Portal_All_Notificaiton_Posts->widgetFILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-widget.php[380]
+	CLASS___: WP_Widget->display_callback   FILE: /www/wwwroot/dlu.edu.vn/wp-includes/widgets.php[823]
+	FUNCTION: dynamic_sidebar               FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/templates/template-home.php[42]
+	FUNCTION: include                       FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/index.php[17]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_NOTICE Undefined offset: 0
+	FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/inc/hooks/np-widget-hooks.php[1038]
+	--- TRACE ---
+	FUNCTION: news_portal_layout_only_event FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/inc/widgets/np_block_post_only_event.php[116]
+	CLASS___: News_Portal_Block_Posts_Only_Event->widgetFILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-widget.php[380]
+	CLASS___: WP_Widget->display_callback   FILE: /www/wwwroot/dlu.edu.vn/wp-includes/widgets.php[823]
+	FUNCTION: dynamic_sidebar               FILE: /www/wwwroot/dlu.edu.vn/wp-content/themes/news-portal/templates/template-home.php[42]
+	FUNCTION: include                       FILE: /www/wwwroot/dlu.edu.vn/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/index.php[17]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /www/wwwroot/dlu.edu.vn/wp-login.php
+E_WARNING file_put_contents(/www/wwwroot/dlu.edu.vn/wp-content/uploads/sucuri/sucuri-settings.php): failed to open stream: No such file or directory
+	FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[225]
+	--- TRACE ---
+	FUNCTION: file_put_contents             FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[225]
+	CLASS___: SucuriScanOption::writeNewOptionsFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[327]
+	CLASS___: SucuriScanOption::updateOptionFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[299]
+	CLASS___: SucuriScanOption::getOption   FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[368]
+	CLASS___: SucuriScanOption::isEnabled   FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/lastlogins.php[430]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/sucuri.php[232]
+	FUNCTION: include_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-settings.php[391]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-config.php[107]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-load.php[37]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_WARNING file_put_contents(/www/wwwroot/dlu.edu.vn/wp-content/uploads/sucuri/sucuri-settings.php): failed to open stream: No such file or directory
+	FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[225]
+	--- TRACE ---
+	FUNCTION: file_put_contents             FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[225]
+	CLASS___: SucuriScanOption::writeNewOptionsFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[327]
+	CLASS___: SucuriScanOption::updateOptionFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[299]
+	CLASS___: SucuriScanOption::getOption   FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/option.lib.php[368]
+	CLASS___: SucuriScanOption::isEnabled   FILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/base.lib.php[584]
+	CLASS___: SucuriScan::supportReverseProxyFILE: /www/wwwroot/dlu.edu.vn/wp-content/plugins/sucuri-scanner/src/interface.lib.php[52]
+	CLASS___: SucuriScanInterface::initializeFILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-hook.php[292]
+	CLASS___: WP_Hook->apply_filters        FILE: /www/wwwroot/dlu.edu.vn/wp-includes/class-wp-hook.php[316]
+	CLASS___: WP_Hook->do_action            FILE: /www/wwwroot/dlu.edu.vn/wp-includes/plugin.php[484]
+	FUNCTION: do_action                     FILE: /www/wwwroot/dlu.edu.vn/wp-settings.php[560]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-config.php[107]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-load.php[37]
+	FUNCTION: require                       FILE: /www/wwwroot/dlu.edu.vn/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /www/wwwroot/dlu.edu.vn/wp-content/wp_test_script_567f4c0-12145838.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+
+
+====================================
+LOG-TIME[/www/wwwroot/dlu.edu.vn/dup-installer/ctrls/ctrl.base.php:189][DELTA:   0.01134]  MESSAGE:END RENDER PAGE

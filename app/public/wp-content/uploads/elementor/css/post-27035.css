@@ -1,0 +1,18 @@
+.elementor-27035 .elementor-element.elementor-element-de66d6b{--display:flex;--background-transition:0.3s;}.elementor-27035 .elementor-element.elementor-element-1c3e256{text-align:center;}.elementor-27035 .elementor-element.elementor-element-1c3e256 .elementor-heading-title{color:var( --e-global-color-7caab3c );font-family:"Roboto", Sans-serif;font-size:24px;font-weight:600;}.elementor-27035 .elementor-element.elementor-element-ea27ae3 .elementor-posts-container .elementor-post__thumbnail{padding-bottom:calc( 0.66 * 100% );}.elementor-27035 .elementor-element.elementor-element-ea27ae3:after{content:"0.66";}.elementor-27035 .elementor-element.elementor-element-ea27ae3 .elementor-post__meta-data span + span:before{content:"•";}.elementor-27035 .elementor-element.elementor-element-ea27ae3{--grid-column-gap:30px;--grid-row-gap:35px;}.elementor-27035 .elementor-element.elementor-element-ea27ae3 .elementor-post__text{margin-top:20px;}.elementor-27035 .elementor-element.elementor-element-ea27ae3 .elementor-post__badge{right:0;}.elementor-27035 .elementor-element.elementor-element-ea27ae3 .elementor-post__card .elementor-post__badge{margin:20px;}.elementor-27035 .elementor-element.elementor-element-ea27ae3 .elementor-post__avatar{top:calc(-0px / 2);}.elementor-27035 .elementor-element.elementor-element-ea27ae3 .elementor-post__avatar img{width:0px;height:0px;}.elementor-27035 .elementor-element.elementor-element-ea27ae3 .elementor-post__thumbnail__link{margin-bottom:calc(0px / 2);}@media(max-width:767px){.elementor-27035 .elementor-element.elementor-element-ea27ae3 .elementor-posts-container .elementor-post__thumbnail{padding-bottom:calc( 0.5 * 100% );}.elementor-27035 .elementor-element.elementor-element-ea27ae3:after{content:"0.5";}}/* Start custom CSS for heading, class: .elementor-element-1c3e256 */.elementor-27035 .elementor-element.elementor-element-1c3e256 {
+    text-decoration: underline;
+    text-decoration-color: #ddd2b2;
+}/* End custom CSS */
+/* Start custom CSS for posts, class: .elementor-element-ea27ae3 */.elementor-post__excerpt {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Giới hạn số dòng */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.elementor-post__title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Giới hạn số dòng */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}/* End custom CSS */

@@ -43,12 +43,8 @@ class Module extends BaseModule {
 			'title' => esc_html__( 'Element Caching', 'elementor' ),
 			'tag' => esc_html__( 'Performance', 'elementor' ),
 			'description' => esc_html__( 'Elements caching reduces loading times by serving up a copy of an element instead of rendering it fresh every time the page is loaded. When active, Elementor will determine which elements can benefit from static loading - but you can override this.', 'elementor' ),
-			'release_status' => ExperimentsManager::RELEASE_STATUS_BETA,
+			'release_status' => ExperimentsManager::RELEASE_STATUS_DEV,
 			'default' => ExperimentsManager::STATE_INACTIVE,
-			'new_site' => [
-				'default_active' => true,
-				'minimum_installation_version' => '3.23.0',
-			],
 			'generator_tag' => true,
 		] );
 	}
@@ -78,9 +74,9 @@ class Module extends BaseModule {
 	}
 
 	private function add_advanced_tab_actions() {
-		$hooks = [
+		$hooks = array(
 			'elementor/element/common/_section_style/after_section_end' => '_css_classes', // Widgets
-		];
+		);
 
 		foreach ( $hooks as $hook => $injection_position ) {
 			add_action(
@@ -123,13 +119,12 @@ class Module extends BaseModule {
 			Settings::TAB_PERFORMANCE,
 			'element_cache_ttl',
 			[
-				'label' => esc_html__( 'Element Cache', 'elementor' ),
+				'label' => esc_html__( 'Element Cache Expiration', 'elementor' ),
 				'field_args' => [
 					'class' => 'elementor-element-cache-ttl',
 					'type' => 'select',
 					'std' => '24',
 					'options' => [
-						'disable' => esc_html__( 'Disable', 'elementor' ),
 						'1' => esc_html__( '1 Hour', 'elementor' ),
 						'6' => esc_html__( '6 Hours', 'elementor' ),
 						'12' => esc_html__( '12 Hours', 'elementor' ),
@@ -151,11 +146,10 @@ class Module extends BaseModule {
 		add_action( 'deactivated_plugin', [ $this, 'clear_cache' ] );
 		add_action( 'switch_theme', [ $this, 'clear_cache' ] );
 		add_action( 'upgrader_process_complete', [ $this, 'clear_cache' ] );
-
-		add_action( 'update_option_elementor_element_cache_ttl', [ $this, 'clear_cache' ] );
 	}
 
 	public function clear_cache() {
 		Plugin::$instance->files_manager->clear_cache();
+
 	}
 }

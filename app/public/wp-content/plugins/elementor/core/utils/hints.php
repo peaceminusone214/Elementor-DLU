@@ -141,8 +141,9 @@ class Hints {
 		}
 
 		if ( $notice_settings['dismissible'] ) {
-			$dismissible = '<button class="elementor-control-notice-dismiss tooltip-target" data-event="' . $notice_settings['dismissible'] . '" data-tooltip="' . esc_attr__( 'Don’t show again.', 'elementor' ) . '" aria-label="' . esc_attr__( 'Don’t show again.', 'elementor' ) . '">
+			$dismissible = '<button class="elementor-control-notice-dismiss tooltip-target" data-event="' . $notice_settings['dismissible'] . '" data-tooltip="' . esc_attr__( 'Don’t show again.', 'elementor' ) . '">
 				<i class="eicon eicon-close" aria-hidden="true"></i>
+				<span class="elementor-screen-only">' . esc_html__( 'Don’t show again.', 'elementor' ) . '</span>
 			</button>';
 		}
 
@@ -197,11 +198,7 @@ class Hints {
 	 * @return string
 	 */
 	public static function get_plugin_activate_url( $plugin_slug ): string {
-		$path = "$plugin_slug/$plugin_slug.php";
-		return wp_nonce_url(
-			admin_url( 'plugins.php?action=activate&plugin=' . $path ),
-			'activate-plugin_' . $path
-		);
+		return admin_url( 'plugins.php' );
 	}
 
 	/**
@@ -224,6 +221,10 @@ class Hints {
 	public static function should_display_hint( $hint_key ): bool {
 		$hint = self::get_hints( $hint_key );
 		if ( empty( $hint ) ) {
+			return false;
+		}
+
+		if ( static::is_conflict_plugin_installed() ) {
 			return false;
 		}
 

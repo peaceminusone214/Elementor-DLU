@@ -52,7 +52,6 @@ class Module extends BaseModule {
 				'default_inactive' => true,
 				'minimum_installation_version' => '3.22.0',
 			],
-			'deprecated' => true,
 		];
 	}
 
@@ -318,7 +317,7 @@ class Module extends BaseModule {
 		}
 
 		// Any slug prefixes need to be removed from the post link.
-		return trailingslashit( get_home_url() ) . trailingslashit( $post->post_name );
+		return get_home_url() . '/' . $post->post_name . '/';
 	}
 
 	/**
